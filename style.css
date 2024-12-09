@@ -1,0 +1,137 @@
+.header{
+    width: 1280px;
+    position: relative;
+}
+body{
+    background-image: url(KERJASAMA\ \(5\).png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    align-items: center;
+    width: 100%;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #de8897;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #de8897;
+}
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #de8897;
+    position: fixed;
+}
+.options{
+    background-position: center;
+}
+ul{
+    list-style: none;
+    background:#de8897;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    position: relative;
+    width: 1280px;
+    height: 65px;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+    position:relative ;
+    height: 60px;
+    padding: 10px 8px;
+    width: auto;
+    align-items: center;
+}
+
+ul li a{
+    padding:10px 0px ;
+    text-align: center;
+    align-items: center;
+}
+ul a:hover{
+    background-color: pink;
+    align-items: center;
+}
+ul li ul.dropdown{
+    background: palevioletred;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+    align-items: center;
+}
+ul li:hover ul.dropdown{
+    display: block;
+    align-items: center;
+}
+.homelah{
+    margin: 170px 0px;
+    width: 80%;
+    background-color: rgb(255, 196, 196);
+    text-align: center;
+}
+.sdgs{
+    width: auto;
+    height: auto;
+    margin: 0px 0px
+}
+.column {
+float: center;
+width: 100%;
+padding: 15px;
+}
+.row::after {
+content: "";
+display: table;
+clear: both;
+}
+/* Left column */
+.column.side{
+    margin: 170px 0px;
+    width: 250px;
+    height: 250;
+    background-color: rgb(255, 135, 185);
+}
+/* kode css middle bar */
+.column {
+    float: left;
+    padding: 0px 0px;
+    display: block;
+}
+/* kode css side bar */
+.column.side{
+    margin: 0px 0px;
+    width: 75%;
+    background-color: palevioletred;
+    display: block;
+    box-shadow: 0px 0px 20px #ad00375a;
+    height: auto;
+    size: 100%;
+}
+.column.middle {
+    margin: 0px 0px 0px 20px;
+    width: 8000px;
+    background-color: white;
+    display: block;
+    box-shadow: 0px 0px 20px #ad00375a;
+    size: 100%;
+    height: auto;
+}
+div.column{
+    display: flex;
+    margin: 20px 50px 20px 50px;
+}
+.column.side img{
+    margin: 15px;
+    width: 300px;
+}
+.footer{
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: -5px;
+}
